@@ -28,3 +28,4 @@ By default, the tools looks for all YAML files in the `tasks` directory. You can
 streamlit run app.py -- --tasks-dir my_tasks_dir
 ```
 
+Special characters in the YAML files can be escaped using backslash. For example, `title: \"Hello World\"`. One can also add LaTeX in the string fields using `$...$` and `$$...$$`.
