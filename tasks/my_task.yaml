@@ -1,0 +1,47 @@
+title: My Task 
+subtitle: A task to complete 
+max_score: 10
+question: |
+  Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
+
+grading_instructions: |
+  The task will be graded based on the following
+  - Correctness of the output
+  - Correctness of the code (syntax)
+  - Code readability
+  - Code structure
+
+criteria:
+  - title: Correctness of the output
+    max_score: 5
+    step: 1
+    description: |
+      The output of the program should be correct. The program should print the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
+    reasons:
+      - Does not print all the numbers from 1 to 100
+      - Does not print "Fizz" for multiples of 3
+      - Does not print "Buzz" for multiples of 5
+      - Does not print "FizzBuzz" for multiples of 3 and 5
+      - No answer provided
+
+  
+  - title: Correctness of the code (syntax)
+    max_score: 2
+    step: 0.5
+    description: |
+      The code should be correct and should not have any syntax errors.
+    reasons:
+      - Syntax errors
+      - No answer provided
+
+
+  - title: Code readability and structure
+    max_score: 3 
+    step: 0.5
+    description: |
+      The code should be readable and should be structured properly.
+    reasons:
+      - Poor code structure
+      - Hard to read code
+      - No answer provided
+
