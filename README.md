@@ -34,4 +34,6 @@ Special characters in the YAML files can be escaped using backslash. For example
 
 - [ ] Make YAML parser more robust.
 - [ ] Add AI/LLM integration.
+- [ ] Make it possible to add custom reasons/explanations after generating report.
+- [ ] Refresh button to reload current YAML file.
 - [ ] Add task editor to create, edit and view tasks without directly editing the YAML files.
