@@ -29,3 +29,9 @@ streamlit run app.py -- --tasks-dir my_tasks_dir
 ```
 
 Special characters in the YAML files can be escaped using backslash. For example, `title: \"Hello World\"`. One can also add LaTeX in the string fields using `$...$` and `$$...$$`.
+
+## Todo
+
+- [ ] Make YAML parser more robust.
+- [ ] Add AI/LLM integration.
+- [ ] Add task editor to create, edit and view tasks without directly editing the YAML files.
